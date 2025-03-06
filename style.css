@@ -78,14 +78,14 @@ body{
 }
 #one{
     position: absolute;
-    right: 415px;
-    top: 330px;
+    right: 445px;
+    top: 335px;
 
 }
 #two{
     position: absolute;
-    right: 415px;
-    top: 405px; 
+    right: 445px;
+    top: 410px; 
 }
 a{
     color: purple;
