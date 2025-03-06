@@ -1,0 +1,102 @@
+h2{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+h2:before,
+h2:after
+{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid rgb(211, 206, 206);
+    margin: auto;
+}
+.first-form{
+gap: 10px;
+display: flex;
+}
+.Container{
+    display: flex;
+    justify-content: center;
+}
+h1{
+ color: rgb(175, 65, 175);
+}
+button{
+    background: none;
+    background-color: rgb(175, 65, 175);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    height: 1cm;
+    width: 90%;
+    font-size: larger;
+}
+input{
+padding: 10px;
+border-radius: 4px;
+border: solid 1px rgb(194, 191, 191);
+width: 85%;
+}
+body{
+    background: rgb(228, 219, 219)
+}
+.Right-section{
+    border-left: 1px solid rgb(219, 178, 219);
+    padding-left: 1cm;
+    margin: 1cm;
+    
+}
+.first-form input{
+    width: 72%;
+}
+.logo{
+    display: flex;
+    margin-left: 1cm;
+    text-align: center;
+
+}
+#google{
+    background-color: white;
+    width: 70px;
+   height: 1cm;
+   border-radius: 10px;
+}
+#facebook{
+    margin-left:1cm;
+    background-color: white;
+    width: 70px;
+   height: 1cm;
+   border-radius: 10px;
+}
+#apple{
+    margin-left: 1cm;
+   background-color: white;
+   width: 70px;
+   height: 1cm;
+   border-radius: 10px;
+}
+#one{
+    position: absolute;
+    right: 415px;
+    top: 330px;
+
+}
+#two{
+    position: absolute;
+    right: 415px;
+    top: 405px; 
+}
+a{
+    color: purple;
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+#endline{
+    text-align: center;
+    
+}
+h3{
+    font-size: x-large;
+}
